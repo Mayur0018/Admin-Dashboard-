@@ -8,7 +8,9 @@ export default function Home() {
       <Sidebar />
       <div className="homeContainer">
         <Navbar/>
-        Home Container
+        <div className="widgets">
+
+        </div>
       </div>
     </div>
   );
