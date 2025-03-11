@@ -1,20 +1,30 @@
-.navbar{
-    border-bottom: 0.5px solid rgb(231,228,228);
+.navbar {
+  border-bottom: 0.5px solid rgb(231, 228, 228);
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+
+  .wrapper {
+    width: 100%;
+    padding: 20px;
     display: flex;
     align-items: center;
-    font-size: 14px;
-    color: #555;
+    justify-content: space-between;
 
-    .wrapper{
-        width: 100%;
-        padding: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        // background-color: red;
-        .iteams{
-            display: flex;
-        }
+    .search {
+      display: flex;
+      align-items: center;
+      border: 0.5px solid lightgray;
+      padding: 3px;
+
+      input {
+        border: none;
+        outline: none;
+      }
     }
-
+    .iteams {
+      display: flex;
+    }
+  }
 }
