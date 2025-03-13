@@ -1,3 +1,16 @@
-.chart{
-    flex: 4;
+.chart {
+  flex: 4;
+  -webkit-box-shadow: -1px 10px 15px -18px rgba(0,0,0,0.56);
+-moz-box-shadow: -1px 10px 15px -18px rgba(0,0,0,0.56);
+box-shadow: -1px 10px 15px -18px rgba(0,0,0,0.56);
+  padding: 10px;
+  color: gray;
+
+  .chartTitle {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
 }
+

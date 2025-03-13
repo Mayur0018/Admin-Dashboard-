@@ -5,6 +5,7 @@ import Navbar from "../../Components/navbar/Navbar";
 import Widget from "../../Components/widget/widget";
 import Featured from "../../Components/featured/Featured";
 import Charts from "../../Components/chart/chart";
+import Table from "../../Components/table/Table";
 export default function Home() {
   return (
     <div className="home">
@@ -21,7 +22,12 @@ export default function Home() {
         <Featured />
         <Charts />
         </div>
-      </div>
+        <div className="listContainer">
+          <div className="listTitle">
+          <Table />
+          </div>
+        </div>
+      </div>  
     </div>
   );
 }
