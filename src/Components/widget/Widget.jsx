@@ -5,7 +5,6 @@ import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import AccountBalanceWalletIcon from "@mui/icons-material/AccountBalanceWallet";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import MonetizationOnIcon from "@mui/icons-material/MonetizationOn";
-import { rgbToHex } from "@mui/material";
 
 export default function Widget({ type }) {
   let data;
