@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "../../Components/sidebar/Sidebar";
 import Navbar from "../../Components/navbar/Navbar";
-import Chart from "../../Components/Chart/Chart";
+import Chart from "../../Components/chart/Chart";
 import List from "../../Components/table/Table";
 import "./single.scss";
 
