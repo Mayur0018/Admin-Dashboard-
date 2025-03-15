@@ -49,13 +49,13 @@ export default function Single() {
             </div>
           </div>
           <div className="right">
-           <Chart aspect={3/1} title="User spending (Last)"/>
+            <Chart aspect={3 / 1} title="User spending (Last)" />
           </div>
         </div>
         <div className="bottom">
-        <h1 className="title">Last Transaction</h1>
+          <h1 className="title">Last Transaction</h1>
 
-        <List/>
+          <List />
         </div>
       </div>
     </div>

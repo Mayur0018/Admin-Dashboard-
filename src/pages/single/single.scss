@@ -46,12 +46,12 @@
               margin-bottom: 10px;
               font-size: 14px;
 
-              .itemKey{
+              .itemKey {
                 font-weight: bold;
-                color: gray ;
+                color: gray;
                 margin-right: 10px;
               }
-              .iteamValue{
+              .iteamValue {
                 font-weight: 300;
               }
             }
@@ -62,19 +62,18 @@
         flex: 2;
       }
     }
-  
-  .bottom{
-    padding: 20px;
-    margin:  10px 20px;
-    -webkit-box-shadow: -1px 10px 15px -18px rgba(0, 0, 0, 0.56);
-    -moz-box-shadow: -1px 10px 15px -18px rgba(0, 0, 0, 0.56);
-    box-shadow: -1px 10px 15px -18px rgba(0, 0, 0, 0.56);
-  }
-  .title{
-    color: lightgray;
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-}
 
+    .bottom {
+      padding: 20px;
+      margin: 10px 20px;
+      -webkit-box-shadow: -1px 10px 15px -18px rgba(0, 0, 0, 0.56);
+      -moz-box-shadow: -1px 10px 15px -18px rgba(0, 0, 0, 0.56);
+      box-shadow: -1px 10px 15px -18px rgba(0, 0, 0, 0.56);
+    }
+    .title {
+      color: lightgray;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  }
 }
