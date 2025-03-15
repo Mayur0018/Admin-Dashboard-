@@ -4,7 +4,7 @@ import Sidebar from "../../Components/sidebar/Sidebar";
 import Navbar from "../../Components/navbar/Navbar";
 import DriveFolderUploadIcon from "@mui/icons-material/DriveFolderUpload";
 
-export default function New({ inputs, title }) {
+export default function New ({ inputs, title }) {
   const [file, setFile] = useState("");
   
   return (
