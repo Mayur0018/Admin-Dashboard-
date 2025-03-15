@@ -8,7 +8,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 
-const list = () => {
+const List = () => {
   // Define the data array correctly
   const rows = [
     {
@@ -111,4 +111,4 @@ const list = () => {
   );
 };
 
-export default list;
+export default List;

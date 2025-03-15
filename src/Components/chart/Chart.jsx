@@ -19,11 +19,11 @@ const data = [
   { name: "June", uv: 2390, pv: 3800, amt: 2500 },
 ];
 
-export default function Charts() {
+export default function Charts({aspect,title}) {
   return (
     <div className="chart">
-      <h2 className="chartTitle">Last 6 Months Revenue</h2>
-      <ResponsiveContainer width="100%" height={300}>
+      <h2 className="chartTitle">{title}</h2>
+      <ResponsiveContainer width="100%" aspect={aspect}>
         <AreaChart
           width={730}
           height={250}
