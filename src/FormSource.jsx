@@ -1,4 +1,4 @@
-const UserInputs = [
+export const UserInputs = [
     {
       id: "username",
       label: "Username",
@@ -43,5 +43,68 @@ const UserInputs = [
     }
   ];
   
-  export default UserInputs;
+  
+  export  const productInputs = [
+    {
+      id: "product_name",
+      label: "Product Name",
+      type: "text",
+      placeholder: "Enter product name"
+    },
+    {
+      id: "product_description",
+      label: "Product Description",
+      type: "textarea",
+      placeholder: "Enter product description"
+    },
+    {
+      id: "price",
+      label: "Price",
+      type: "number",
+      placeholder: "Enter price in USD"
+    },
+    {
+      id: "discount",
+      label: "Discount (%)",
+      type: "number",
+      placeholder: "Enter discount percentage"
+    },
+    {
+      id: "stock",
+      label: "Stock Quantity",
+      type: "number",
+      placeholder: "Enter stock quantity"
+    },
+    {
+      id: "category",
+      label: "Category",
+      type: "text",
+      placeholder: "Enter product category"
+    },
+    {
+      id: "brand",
+      label: "Brand",
+      type: "text",
+      placeholder: "Enter brand name"
+    },
+    {
+      id: "sku",
+      label: "SKU (Stock Keeping Unit)",
+      type: "text",
+      placeholder: "Enter SKU code"
+    },
+    {
+      id: "image_url",
+      label: "Product Image URL",
+      type: "url",
+      placeholder: "Enter image URL"
+    },
+    {
+      id: "availability",
+      label: "Availability",
+      type: "select",
+      options: ["In Stock", "Out of Stock", "Pre-order"]
+    }
+  ];
+  
   
